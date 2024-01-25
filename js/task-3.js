@@ -1,14 +1,12 @@
 function filterArray(numbers, value) {
 
         let newNumbersArray = [];
-  // Використовуємо цикл for для ітерації кожного елемента масиву numbers
-  for (let i = 0; i < numbers.length; i++) {
-    // Якщо елемент більший за value, додаємо його до масиву filtered
+ for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
       newNumbersArray.push(numbers[i]);
     }
   }
-  // Повертаємо масив filtered як результат
+ 
   return newNumbersArray;
 }
 
